@@ -17,14 +17,14 @@ public class CustomAddInToArrayList {
         ArrayList aFinal = new ArrayList();
 
         for(Object a : al) {
-            if(!a.equals('o')) {
+            if (!a.equals('o')) {
                 a1.add(a);
-            }
-            else {
+            } else {
                 a2.add(a);
             }
         }
-        aFinal.addAll(al);
+
+        aFinal.addAll(a1);
         aFinal.addAll(a2);
 
         System.out.println(aFinal);
