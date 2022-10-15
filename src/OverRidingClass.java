@@ -10,7 +10,26 @@ public class OverRidingClass {
 }
 
 class Parent{
+    //Real Time Example Of Overriding in JAVA
 
+   /* public class ArrayList<E> extends AbstractList<E>
+            implements List<E>, RandomAccess, Cloneable, java.io.Serializable
+
+        ArrayList
+
+     public boolean add(E e) {
+        ensureCapacityInternal(size + 1);  // Increments modCount!!
+        elementData[size++] = e;
+        return true;
+    }
+
+    AbstractList class
+
+    public boolean add(E e) {
+        add(size(), e);
+        return true;
+    }
+    */
     public void method(){
         System.out.println("VOID METHOD OF PARENT CLASS");
     }

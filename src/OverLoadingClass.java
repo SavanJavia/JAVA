@@ -1,8 +1,17 @@
+import com.sun.corba.se.impl.orbutil.ObjectUtility;
+import com.sun.xml.internal.ws.util.StringUtils;
+
+import java.io.PrintStream;
+
 public class OverLoadingClass {
 
     public static void main(String[] args) {
 
-
+        //Real Time Example Of Overloading in JAVA
+        //SYSTEM CLASS --> OUT IS OBJECT OF PRINTSTREAM CLASS AND PRINTLN IS BELONGS FROM PRINTSTREAM CLASS
+        System.out.println();
+        System.out.println(1);
+        System.out.println("1");
     }
 }
 
