@@ -1,7 +1,4 @@
-/**
- * Compiler time exception due to Exception 'java.lang.ArithmeticException' has already been caught
- * @return
- */
+
 public class TryMultipleCatchFinally {
 
     public static void main(String[] args) {
@@ -9,7 +6,11 @@ public class TryMultipleCatchFinally {
        System.out.println(str);
     }
 
-
+    /**
+     * Compiler time exception due to
+     * Exception 'java.lang.ArithmeticException' has already been caught
+     * @return
+     */
     private static String callSubMethod() {
 
         try{
@@ -21,10 +22,10 @@ public class TryMultipleCatchFinally {
 
             return "e";
         }
-        catch(ArithmeticException ae){
+        /*catch(ArithmeticException ae){ //UNCOMMENT CATCH BLOCK
 
             return "ae";
-        }
+        }*/
         finally{
 
             return "f";
