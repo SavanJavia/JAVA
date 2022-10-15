@@ -12,6 +12,9 @@ public class PassByValue {
         callMethodObject(passByValue);//PASSING AN OBJECT REFERENCE/ADDRESS
         System.out.println("<<MAIN METHOD OBJECT>>"+passByValue.classLevel);
 
+        User u = new User("SAVAN");
+        u.callUserMethod(u);
+        System.out.println("<<MAIN METHOD CREATE ANOTHER CLASS OBJECT>>"+u.name);
     }
 
     private static void callMethodObject(PassByValue passByValue) {
@@ -23,6 +26,20 @@ public class PassByValue {
         i = 2;
         System.out.println("<<CALLMETHODPRIMITIVE METHOD PRIMITIVE VALUE>>"+i);
     }
+}
 
+class User{
+
+    String name;
+
+    public User(String str) {
+        this.name=str;
+    }
+
+    void callUserMethod(User u){
+        u.name="SA1";
+       // u = null; // NULL POINTER EXCEPTION
+        System.out.println("<<CALLUSERMETHOD METHOD>>"+u.name);
+    }
 
 }
