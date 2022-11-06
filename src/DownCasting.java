@@ -12,13 +12,35 @@ public class DownCasting {
 
 class Person{
 
+    String name;
+    int salary;
+
+    Person(){
+
+    }
+    Person(String name, int salary){
+        this.name=name;
+        this.salary=salary;
+    }
     public String name(){
         System.out.println("PERSON");
         return "PERSON";
     }
+
+    @Override
+    public String toString() {
+        return "NAME:"+name;
+    }
 }
 
 class Student extends Person {
+
+    Student() {
+
+    }
+    Student(String name, int salary) {
+        super(name, salary);
+    }
 
     public String name(){
         System.out.println("STUDENT");
