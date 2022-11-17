@@ -13,7 +13,10 @@ public class GetNameByJAVA8 {
 
         List<String> allName = lst.stream().filter(a->a.getCity().equals("Gandhinagar")).collect(Collectors.toList()).stream().map(a->a.getName()).collect(Collectors.toList());
 
-        System.out.println(allName);
+        List<String> allName1 = lst.stream().filter(a->a.getCity().equals("Gandhinagar")).map(a->a.getName()).collect(Collectors.toList());
+
+
+        System.out.println(allName1);
     }
 }
 
