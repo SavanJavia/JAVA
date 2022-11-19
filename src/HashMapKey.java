@@ -5,19 +5,25 @@ public class HashMapKey {
 
     public static void main(String[] args) {
 
-        HashMap<HashClassKey,HashClassKey> hs = new HashMap<>();
-        hs.put(new HashClassKey("a","a"),new HashClassKey("a","a"));
-        System.out.println(hs.hashCode());
-        hs.put(new HashClassKey("a","a"),new HashClassKey("a","a"));
-        System.out.println(hs.hashCode());
+        HashMap<HashClassKey,String> hs = new HashMap<>();
+        hs.put(new HashClassKey("a"),"ABC");
+       // System.out.println(hs.hashCode());
+        hs.put(new HashClassKey("a"),"XYZ");
+       // System.out.println(hs.hashCode());
+
+        System.out.println(hs);
+
+
 
     }
 }
 
 class HashClassKey{
-    public HashClassKey(String name, String address) {
+
+    private String name;
+
+    public HashClassKey(String name) {
         this.name = name;
-        this.address = address;
     }
 
     @Override
@@ -25,30 +31,18 @@ class HashClassKey{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         HashClassKey that = (HashClassKey) o;
-        return Objects.equals(name, that.name) && Objects.equals(address, that.address);
+        return Objects.equals(name, that.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, address);
+        return Objects.hash(name);
     }
 
-    private String name;
-    private String address;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    @Override
+    public String toString() {
+        return "HashClassKey{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
