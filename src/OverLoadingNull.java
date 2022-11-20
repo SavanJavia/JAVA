@@ -18,6 +18,21 @@ public class OverLoadingNull {
         OverLoadingNull o = new OverLoadingNull();
 
         o.method(null);
+        o.method(3);
+        int i=4;
+        o.method(i);
+        Integer j=5;
+        o.method(j);
 
+        o.method(new WRAPPERCLASS());
+
+    }
+
+
+}
+
+class WRAPPERCLASS{
+    public WRAPPERCLASS() {
+        System.out.println("WRAPPERCLASS..");
     }
 }
