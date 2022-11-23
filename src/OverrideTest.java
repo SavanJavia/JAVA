@@ -1,0 +1,20 @@
+class Star {
+    public void doStuff() {
+        System.out.println("Twinkling Star");
+    }
+}
+interface Universe {
+    public void doStuff();
+}
+class Sun extends Star implements Universe {
+    public void doStuff() {
+        System.out.println("Shining Sun");
+    }}
+public class OverrideTest {
+    public static void main(String[] args) {
+        Sun obj2 = new Sun();
+        Star obj3 = obj2;
+        ((Sun) obj3).doStuff(); //Shining Sun
+        ((Star) obj2).doStuff();//Shining Sun
+        ((Universe) obj2).doStuff();//Shining Sun
+    }}
