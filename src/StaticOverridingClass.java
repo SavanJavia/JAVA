@@ -1,14 +1,14 @@
 public class StaticOverridingClass {
     public static void main(String[] args) {
         child2 c2 = new child2();
-        c2.method1();
-        c2.method1(111);
+        c2.method1();//child
+        c2.method1(111);//child-1
 
         parent2 p2 =new parent2();
-        p2.method1();
+        p2.method1();//parent
 
         parent2 pc2 =new child2();
-        pc2.method1();
+        pc2.method1();//parent
         //pc2.method1(123);
     }
 }
