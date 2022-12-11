@@ -46,8 +46,8 @@ public class Class5thDec2022_1 {
             for(int j=1;j<input.size();j++){
 
                 sum = input.get(i) + input.get(j);
-                lst = Arrays.asList(i,j);
                 if(sum == target){
+                    lst = Arrays.asList(i,j);
                     System.out.println(sum);
                     return  lst;
                 }
