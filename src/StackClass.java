@@ -100,7 +100,7 @@ class MyStack {
 };
 
 // Driver Code
-public class Class3rd {
+public class StackClass {
     public static void main(String[] args)
     {
         MyStack s = new MyStack();
