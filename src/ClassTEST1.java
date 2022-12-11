@@ -10,16 +10,9 @@ public class ClassTEST1 {
         String[] strArray = input.split(" ");
 
         String out = "";
-        String s ="";
-        for(int i=0;i<strArray.length;i++){
-
-            s = strArray[i];
-            out = s + out;
-            s ="";
-
+        for(int i=strArray.length-1;i>=0;i--){
+            out = out +" "+strArray[i];
         }
         System.out.println(out);
-
-       // String output = Arrays.stream(strArray).forEach(strArray.length);
     }
 }
