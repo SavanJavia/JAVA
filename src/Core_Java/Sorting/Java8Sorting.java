@@ -19,7 +19,7 @@ public class Java8Sorting {
         Comparator<StudentDto> compare = Comparator
                 .comparing(StudentDto::getId)
                 .thenComparing(StudentDto::getName)
-                .thenComparing(StudentDto::getRollNo);
+                .thenComparing(StudentDto::getRollNo);//.reversed()
 
         System.out.println(studentList.stream().sorted(compare).collect(Collectors.toList()));
 
