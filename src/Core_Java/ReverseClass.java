@@ -11,15 +11,23 @@ public class ReverseClass {
         String[] strArray = input.split(" ");
 
         StringBuffer sb;
-        String str = "";
 
+        String out = "";
         for(int i=0;i<strArray.length;i++){
-            sb = new StringBuffer();
 
-            str = str +" "+ sb.append(strArray[i]).reverse();
+            char[] c = strArray[i].toCharArray();
+
+            for(int j=c.length-1;j>=0;j--){
+                out = out + c[j];
+            }
+            out = out+" ";
+
+           /* sb = new StringBuffer();
+
+            str = str +" "+ sb.append(strArray[i]).reverse();*/
 
         }
-
-        System.out.println(str.trim());
+        System.out.println(out);
+       // System.out.println(str.trim());
     }
 }
