@@ -1,8 +1,9 @@
-import java.util.HashMap;
+package JAVA8;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class Class6thDec2022 {
+public class GetFirstNonRepeatableChar {
    /* Given a String, find the first non-repeated character in it using Stream functions?*/
 
     public static void main(String[] args) {
