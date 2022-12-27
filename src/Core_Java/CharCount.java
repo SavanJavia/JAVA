@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+package Core_Java;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class Class3rdDec {
+public class CharCount {
 
     public static void main(String[] args) {
 
