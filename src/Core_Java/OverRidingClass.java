@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class OverRidingClass {
     public static void main(String[] args) {
 
@@ -45,7 +47,7 @@ class Child extends Parent{
     }
 
     /**
-     * 'method1()' in 'Child' clashes with 'method1()' in 'Parent'; attempting to use incompatible return type
+     * 'method1()' in 'Core_Java.Child' clashes with 'method1()' in 'Core_Java.Parent'; attempting to use incompatible return type
      */
     //UNCOMMENT METHOD1
     /*public void method1(){

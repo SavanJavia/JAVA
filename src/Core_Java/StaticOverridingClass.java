@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class StaticOverridingClass {
     public static void main(String[] args) {
         child2 c2 = new child2();

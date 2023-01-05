@@ -1,3 +1,5 @@
+package Core_Java;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -22,9 +24,7 @@ public class Metrix {
                 lst.add(array[i][j]);
             }
         }
-
-        lst = lst.stream().sorted().collect(Collectors.toList());
-        System.out.println(lst);
-        return lst.get(input-1);
+        System.out.println(lst.stream().sorted().collect(Collectors.toList()));
+        return lst.stream().sorted().collect(Collectors.toList()).get(input-1);
     }
 }

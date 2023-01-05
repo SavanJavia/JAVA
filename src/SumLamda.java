@@ -12,7 +12,7 @@ public class SumLamda {
 
         StudentABC s  = new StudentABC();
         s.setId(1);
-        s.setName("Test");
+        s.setName("Core_Java.Test");
 
         List<StudentABC>  studetnLst = new ArrayList<>();
         studetnLst.add(s);
