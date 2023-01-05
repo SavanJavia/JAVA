@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class SwitchCase {
     public static void main(String[] args) {
         int x = 353;

@@ -1,3 +1,5 @@
+package JAVA8;
+
 import java.util.*;
 import java.util.stream.Collectors;
 

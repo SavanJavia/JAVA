@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class SwitchCase1 {
     public static void main(String[] args) {
         char grade = 'C';

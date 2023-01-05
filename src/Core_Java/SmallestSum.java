@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class SmallestSum {
 
     /*Find smallest sum of two elemets*/
@@ -16,21 +18,16 @@ public class SmallestSum {
 
         for (int j = 0; j < n; j++)
         {
-
             // If found new minimum
             if (a[j] < min)
             {
-
                 // Minimum now becomes second minimum
                 secondMin = min;
-
                 // Update minimum
                 min = a[j];
             }
-
             // If current element is > min and < secondMin
             else if ((a[j] < secondMin))//&& a[j] != min
-
                 // Update secondMin
                 secondMin = a[j];
         }
