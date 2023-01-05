@@ -14,7 +14,7 @@ class SeprateOverload{
 
         String[] str = new String[2];
         str[0]="A0";
-        str[1]="A1";
+        str[1]="Core_Java.A1";
 
 
         MainOverload mo = new MainOverload();

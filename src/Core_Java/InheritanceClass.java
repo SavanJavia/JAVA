@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class InheritanceClass {
 
     public static void main(String[] args) {

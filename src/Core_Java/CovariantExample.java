@@ -1,4 +1,4 @@
-/*
+package Core_Java;/*
 1) Covariant return type assists to stay away from the confusing type casts in the class hierarchy and
 makes the code more usable, readable, and maintainable.
 
@@ -16,12 +16,12 @@ class A1
 
     void print()
     {
-        System.out.println("Inside the class A1");
+        System.out.println("Inside the class Core_Java.A1");
     }
 }
 
 
-// A2 is the child class of A1  
+// Core_Java.A2 is the child class of Core_Java.A1
 class A2 extends A1
 {
     @Override
@@ -32,11 +32,11 @@ class A2 extends A1
 
     void print()
     {
-        System.out.println("Inside the class A2");
+        System.out.println("Inside the class Core_Java.A2");
     }
 }
 
-// A3 is the child class of A2  
+// Core_Java.A3 is the child class of Core_Java.A2
 class A3 extends A2
 {
     @Override
@@ -48,7 +48,7 @@ class A3 extends A2
     @Override
     void print()
     {
-        System.out.println("Inside the class A3");
+        System.out.println("Inside the class Core_Java.A3");
     }
 }
 

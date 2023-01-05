@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class AbstractClass {
 
     //Real Time Example Of Abstract Class in JAVA
@@ -25,7 +27,7 @@ public class AbstractClass {
         ParentA pa = new ParentA() {
             @Override
             String strTest() {
-                return "ParentA strTest Method Calling...";
+                return "Core_Java.ParentA strTest Method Calling...";
             }
         };
         System.out.println(pa.strTest());
@@ -49,7 +51,7 @@ class ChildA extends ParentA{
 
     @Override
     String strTest() {
-        return "ChildA strTest Method Calling...";
+        return "Core_Java.ChildA strTest Method Calling...";
     }
 
     int intTest(){

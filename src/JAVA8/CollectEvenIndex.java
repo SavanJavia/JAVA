@@ -1,3 +1,4 @@
+package JAVA8;
 
 import java.util.ArrayList;
 
@@ -23,6 +24,7 @@ public class CollectEvenIndex {
 
         ArrayList<Integer> outList = new ArrayList<>();
         System.out.println(list);
+
         list.stream().forEach(l -> {
           int index = list.indexOf(l);
           if(index%2==0){

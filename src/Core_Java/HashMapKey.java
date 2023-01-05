@@ -1,3 +1,5 @@
+package Core_Java;
+
 import java.util.HashMap;
 import java.util.Objects;
 
@@ -41,7 +43,7 @@ class HashClassKey{
 
     @Override
     public String toString() {
-        return "HashClassKey{" +
+        return "Core_Java.HashClassKey{" +
                 "name='" + name + '\'' +
                 '}';
     }

@@ -1,3 +1,5 @@
+package JAVA8;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,8 +12,6 @@ public class GetNameByJAVA8 {
                 new Employee8("SAVAN1","Rajkot"),
                 new Employee8("SAVAN2","Gandhinagar"),
                 new Employee8("SAVAN3","Pune"));
-
-        List<String> allName = lst.stream().filter(a->a.getCity().equals("Gandhinagar")).collect(Collectors.toList()).stream().map(a->a.getName()).collect(Collectors.toList());
 
         List<String> allName1 = lst.stream().filter(a->a.getCity().equals("Gandhinagar")).map(a->a.getName()).collect(Collectors.toList());
 

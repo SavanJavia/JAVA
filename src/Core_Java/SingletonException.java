@@ -14,7 +14,7 @@ public class SingletonException {
             }
         }*/
 
-       // ClassTest123 o = new ClassTest123();
+       // Core_Java.ClassTest123 o = new Core_Java.ClassTest123();
        // o.getInstaceMethod();//50
 
         SingletonClass.getInstaceMethod();
