@@ -1,3 +1,5 @@
+package Core_Java;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -27,7 +29,6 @@ public class SplitArray {
 
         int start =0;
         int end =0;
-
 
         List<int[]> list = new ArrayList<>();
         for (int i = 0; i < numberOfArrays; i++) {

@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class pattern1 {
 
     public static void main(String[] args) {
@@ -18,8 +20,8 @@ public class pattern1 {
             {
                 System.out.print(j);
             }
-            System.out.println();
 
+         System.out.println();
         }
     }
 }

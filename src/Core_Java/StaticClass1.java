@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class StaticClass1 {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ class class1ABC{
 
 
     public class1ABC() {
-        System.out.println("class1ABC");
+        System.out.println("Core_Java.class1ABC");
     }
 
     {

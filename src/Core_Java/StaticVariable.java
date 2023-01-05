@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class StaticVariable {
     public static void main(String[] args) {
         StaticParent sp = new StaticParent();
@@ -21,12 +23,12 @@ class StaticParent{
 
     public void method(){
         i=10;
-        System.out.println("STATIC StaticParent>"+i);
+        System.out.println("STATIC Core_Java.StaticParent>"+i);
     }
 
     public static void method(int j){
         z=11;
-        System.out.println("STATIC METHOD StaticParent>"+z);
+        System.out.println("STATIC METHOD Core_Java.StaticParent>"+z);
     }
 
 }
