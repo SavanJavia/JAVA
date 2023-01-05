@@ -9,7 +9,8 @@ public class StringClass {
         s = "first1";
         System.out.println(s+s1);
          s="Sachin";
-         s = s.concat(" Tendulkar");
+        s.concat(" Tendulkar");
+         //s = s.concat(" Tendulkar");
         System.out.println(s+s1);
     }
 }

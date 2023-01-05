@@ -41,13 +41,13 @@ class xyz{
         this.id = id;
     }
 
-   /* @Override
+   @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         xyz xyz = (xyz) o;
         return Objects.equals(name, xyz.name) && Objects.equals(id, xyz.id);
-    }*/
+    }
 
     @Override
     public int hashCode() {

@@ -1,4 +1,6 @@
-public class ClassTest {
+package Core_Java;
+
+public class ReversedString {
     public static void main(String[] args) {
 
         String str = "this is a java test";

@@ -1,6 +1,8 @@
+package Core_Java;
+
 import java.util.*;
 
-public class ClassDate30 {
+public class FirstNonRepeating {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,6 @@
-public class ClassTest31_11 {
+package Core_Java;
+
+public class SingletonException {
 
     public static void main(String[] args) throws Exception {
 
@@ -15,27 +17,27 @@ public class ClassTest31_11 {
        // ClassTest123 o = new ClassTest123();
        // o.getInstaceMethod();//50
 
-        ClassTest123.getInstaceMethod();
+        SingletonClass.getInstaceMethod();
     }
 }
 
-class ClassTest123{
+class SingletonClass{
 
 
-    private ClassTest123() {
+    private SingletonClass() {
     }
 
-    static ClassTest123 obj;
+    static SingletonClass obj;
     static int count=0;
 
-    public static ClassTest123 getInstaceMethod() throws Exception {
+    public static SingletonClass getInstaceMethod() throws Exception {
 
-        if(ClassTest123.count==50){
+        if(SingletonClass.count==50){
             throw new Exception();
         }
 
         //if(obj == null){
-            obj = new ClassTest123();
+            obj = new SingletonClass();
             count++;
        // }
 

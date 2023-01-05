@@ -21,13 +21,7 @@ public class ReverseClass {
                 out = out + c[j];
             }
             out = out+" ";
-
-           /* sb = new StringBuffer();
-
-            str = str +" "+ sb.append(strArray[i]).reverse();*/
-
         }
         System.out.println(out);
-       // System.out.println(str.trim());
     }
 }

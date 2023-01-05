@@ -1,6 +1,6 @@
-import java.util.Arrays;
+package Core_Java;
 
-public class ClassTEST1 {
+public class ReverseString1 {
 
     public static void main(String[] args) {
         String input = "my name is savan javia";
@@ -13,6 +13,6 @@ public class ClassTEST1 {
         for(int i=strArray.length-1;i>=0;i--){
             out = out +" "+strArray[i];
         }
-        System.out.println(out);
+        System.out.println(out.trim());
     }
 }

@@ -26,9 +26,7 @@ public class CharCount {
         String output1="";
 
         for(int i=0;i<c.length;i++){
-            if(i==0) {
-                str = String.valueOf(c[i]);
-            }else{
+            if(i>0) {
                 str = String.valueOf(c[i-1]);
             }
             if (!str.equals(String.valueOf(c[i]))) {
