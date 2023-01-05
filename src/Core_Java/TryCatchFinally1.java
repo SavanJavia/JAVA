@@ -1,4 +1,6 @@
-public class M5Class {
+package Core_Java;
+
+public class TryCatchFinally1 {
     public static void main(String[] args) {
 
         System.out.println(callMethod());
@@ -13,10 +15,10 @@ public class M5Class {
         } catch(ArithmeticException ae) {
             System.out.println("CATCH");
             return -1;
-        } /*finally {
+        } finally {
             System.out.println("FINALLY");
-            return -2;
-        }*/
+            //return -2;
+        }
         return -3; //NOT EXECUTE
     }
 }

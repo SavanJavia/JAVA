@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class M3Class extends A11 {
 
     public static void main(String[] args) {

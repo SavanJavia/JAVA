@@ -1,5 +1,6 @@
+package Core_Java;
 
-public class TryMultipleCatchFinally {
+public class TryCatchFinally {
 
     public static void main(String[] args) {
        String str = callSubMethod();
@@ -7,8 +8,7 @@ public class TryMultipleCatchFinally {
     }
 
     /**
-     * Compiler time exception due to
-     * Exception 'java.lang.ArithmeticException' has already been caught
+     * In Both Case It's Printed Finally Block Return Statement
      * @return
      */
     private static String callSubMethod() {
@@ -20,12 +20,8 @@ public class TryMultipleCatchFinally {
         }
         catch(Exception e){
 
-            return "e";
+            return "c";
         }
-        /*catch(ArithmeticException ae){ //UNCOMMENT CATCH BLOCK
-
-            return "ae";
-        }*/
         finally{
 
             return "f";

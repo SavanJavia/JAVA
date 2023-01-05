@@ -1,3 +1,5 @@
+package Core_Java;
+
 import java.util.*;
 
 public class M1Class {
@@ -29,7 +31,7 @@ class EmployeeM {
 
     @Override
     public String toString() {
-        return "EmployeeM{" +
+        return "Core_Java.EmployeeM{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 ", salary=" + salary +
@@ -75,7 +77,7 @@ class CustomerM{
 
     @Override
     public String toString() {
-        return "CustomerM{" +
+        return "Core_Java.CustomerM{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 '}';

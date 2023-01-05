@@ -1,3 +1,5 @@
+package Core_Java;
+
 public class M2Class {
     public static void main(String[] args) {
         int i = 100;

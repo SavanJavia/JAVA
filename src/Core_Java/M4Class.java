@@ -1,9 +1,11 @@
+package Core_Java;
+
 public class M4Class {
     public static void main(String[] args) {
 
       /*  Ambiguous method call. Both
-                sum(int,long) in M4Class and
-                sum(long,int) in M4Class match
+                sum(int,long) in Core_Java.M4Class and
+                sum(long,int) in Core_Java.M4Class match
       */
 
        //FOR CHECK OPEN THIS COMMENT
